@@ -2,5 +2,7 @@
 !.gitignore
 !*/
 !*.asm
+!*.s
+!*.json
 !*.inc
 !Makefile
