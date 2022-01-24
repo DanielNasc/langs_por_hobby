@@ -5,4 +5,5 @@
 !*.s
 !*.json
 !*.inc
+!*.md
 !Makefile
