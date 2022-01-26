@@ -42,3 +42,4 @@
 * `dec` - Decrement the value in memory
 * `clc` - Clear the carry flag
 * `adc` - Add with carry
+* `bcc` - Branch on Carry Clear
