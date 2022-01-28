@@ -44,3 +44,4 @@
 * `adc` - Add with carry
 * `bcc` - Branch on Carry Clear
 * `beq` - Branch if Equal
+* `ora` - Or with accumulator
