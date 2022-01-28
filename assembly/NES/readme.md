@@ -43,3 +43,4 @@
 * `clc` - Clear the carry flag
 * `adc` - Add with carry
 * `bcc` - Branch on Carry Clear
+* `beq` - Branch if Equal
