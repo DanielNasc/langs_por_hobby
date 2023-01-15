@@ -1,9 +1,2 @@
-*
-!.gitignore
-!*/
-!*.asm
-!*.s
-!*.json
-!*.inc
-!*.md
-!Makefile
+*.o
+*.nes
