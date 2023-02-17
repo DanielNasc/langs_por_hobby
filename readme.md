@@ -5,6 +5,7 @@ Repositório onde eu vou colocar alguns códigos simples em algumas linguagens q
 ## Linguagens que tenho interesse:
 * Assembly (Intel, NES, SNES, Mega Drive);
 * Fortran;
+* Rust
 * Ruby;
 * Haskell;
 * Perl;
