@@ -23,6 +23,13 @@ fn fibonacci(values: &mut [u128]) {
     }
 }
 
+fn poisson(lambda: f64, k: u32) -> f64 {
+    let k_factorial = (1..=k).fold(1, |acc, x| acc * x);
+    let e_to_the_minus_lambda = (-lambda).exp();
+
+    (lambda.powi(k as i32) * e_to_the_minus_lambda) / k_factorial as f64
+}
+
 fn is_odd(n: usize) -> bool {
     n % 2 == 1
 }
@@ -372,6 +379,13 @@ fn main() {
 
     for element in arr.iter() {
         println!("the value is: {}", element);
+    }
+
+    println!("\nPoisson Distribution\n");
+    println!("λ = .61; k = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+
+    for k in 0..11 {
+        println!("P(X = {}) = {}", k, poisson(0.61, k));
     }
 
     println!();
